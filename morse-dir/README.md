@@ -9,7 +9,7 @@ This is a simple Morse code converter that can convert text to Morse code and vi
 
 ## Connections
 | Srno | Src Component | Dest Component | Description |
-| --- | --- |
+| --- | --- | --- | --- |
 | 1 | Arduino | LED | Pin 13 and GND to +ve and -ve connections respectively |
 
 ## How to use
