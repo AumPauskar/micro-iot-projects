@@ -21,6 +21,9 @@ This folder contains the code and circuit diagram for interfacing a push button 
 - Circuit diagram
 ![Circuit diagram](connections.png)
 
+## Additional code
+Refer the code in `button-to-morse` folder to see how to use the push button to send morse code using an LED. The connections may not be modified from the above provided circuit diagram, however the led may be omitted.
+
 - Reference image
 ![Reference image](image.png)
 ## Link to the tinkercad demo
