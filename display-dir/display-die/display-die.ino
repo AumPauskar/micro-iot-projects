@@ -44,6 +44,7 @@ int rollDice() {
     int randomNumber = random(1, 7);
     refreshDisplay(randomNumber);
     digitalWrite(ledPin, HIGH);
+    delay(1000);
     return randomNumber;
   } else {
     // If button is not pressed, return -1 as an indication
@@ -56,5 +57,5 @@ void loop()
 {
   // only for debugging
   die = rollDice();
-  print(die);
+  Serial.println(die);
 }
